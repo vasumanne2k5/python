@@ -1,0 +1,31 @@
+# data types
+#string
+name = "Vasu"
+print(name)
+print(type(name))
+#integer
+age=25
+print(age)
+print(type(age))
+
+#float
+height=5.9
+print(height)
+print(type(height))
+#boolean
+is_student = True
+print(is_student)
+print(type(is_student))
+
+
+#type conversion
+#int to float
+a=10
+b=float(a)
+print(b)
+print(type(b))
+
+#str to int
+a1=21
+new_age=int(a1+4)
+print(new_age)
