@@ -1,0 +1,12 @@
+first_name = "Vasu"
+last_name = "Manne"
+
+full_name = first_name + " " + last_name
+
+print(full_name)
+
+# we can also use f-strings like
+name = "Vasu"
+age = 21
+
+print(f"My name is {name} and I am {age} years old.")
