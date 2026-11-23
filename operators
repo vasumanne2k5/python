@@ -1,0 +1,31 @@
+#arithmetic operators
+a = 20
+b = 6
+
+print(a + b)
+print(a - b)
+print(a * b)
+print(a / b)
+print(a // b)
+print(a % b)
+print(a ** 2)
+
+#comparison operators
+age = 21
+
+print(age >= 18)
+print(age == 21)
+print(age != 18)
+# logical operators
+age = 21
+marks = 75
+
+print(age >= 18 and marks >= 60)
+
+#assignment operators
+balance = 1000
+
+balance += 500
+balance -= 200
+
+print(balance)
