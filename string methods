@@ -1,0 +1,37 @@
+#uppercase
+name = "vasu"
+print(name.upper())
+
+#lowercase
+name = "PYTHON"
+print(name.lower())
+
+#capitalize
+text = "hello world"
+print(text.capitalize())
+
+#title
+text = "python programming"
+print(text.title())
+
+#replace
+text = "I like Java"
+print(text.replace("Java", "Python"))
+
+#find
+text = "Hello Python"
+print(text.find("Python"))
+
+#count
+text = "banana"
+print(text.count("a"))
+
+#strip
+name = "  Vasu  "
+print(name.strip())
+
+#startswith and endswith
+text = "Python Programming"
+
+print(text.startswith("Python"))
+print(text.endswith("ing"))
