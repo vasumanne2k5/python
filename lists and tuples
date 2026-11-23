@@ -1,0 +1,31 @@
+#list operations
+
+students = ["Vasu", "Rahul", "Arjun", "Kiran"]
+
+    print(students)
+
+#Accessing List Elements
+fruits = ["Apple", "Banana", "Mango", "Orange"]
+
+    print(fruits[0])   # Apple
+    print(fruits[1])   # Banana
+    print(fruits[-1])  # Orange
+
+#List slicing:
+    print(fruits[0:2])
+['Apple', 'Banana']
+
+#Modifying List Elements
+fruits = ["Apple", "Banana", "Mango"]
+
+fruits[1] = "Grapes"
+
+    print(fruits)
+['Apple', 'Grapes', 'Mango']
+
+#nested list
+students=[
+    ['vasu',70]
+    ['chandu',80]
+    ['chary',85]
+]
