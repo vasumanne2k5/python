@@ -1,0 +1,15 @@
+
+import math
+
+print(math.sqrt(25))
+print(math.pi)
+
+import math as m
+
+print(m.sqrt(49))
+
+#import multiple functions 
+from math import sqrt, factorial
+
+print(sqrt(64))
+print(factorial(5))
